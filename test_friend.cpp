@@ -17,7 +17,7 @@ class Point{
             return y;
         }
         friend double distance(Point px,Point py){
-            return 0.0;
+            return px.getX()*py.getY();
         }
 };
 
