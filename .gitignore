@@ -1,0 +1,46 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+*.app
+*.dsp
+*.dsw
+*.ncb
+*.opt
+*.plg
+*.cbp
+*.depend
+*.layout
+*.cof
+*.map
+*.pdb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Executables
+*.exe
+*.out
+*.bin
+
+# support folder
+.sonarlint/
+#.vscode/
+.svn/
