@@ -6,7 +6,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "g++ -g -o ${workspaceFolder}/bin/${fileBasename}.out ${file}",
+            "command": "g++ -g -o ${workspaceFolder}/bin/${fileBasenameNoExtension}.out ${file}",
             "presentation": {
                 "echo": true,
                 "reveal": "always",
